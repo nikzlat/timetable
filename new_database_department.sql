@@ -1,0 +1,10 @@
+INSERT INTO new_database.department (idDepartment, departmentName) VALUES (1, 'A');
+INSERT INTO new_database.department (idDepartment, departmentName) VALUES (2, 'B');
+INSERT INTO new_database.department (idDepartment, departmentName) VALUES (3, 'C');
+INSERT INTO new_database.department (idDepartment, departmentName) VALUES (4, 'D');
+INSERT INTO new_database.department (idDepartment, departmentName) VALUES (5, 'E');
+INSERT INTO new_database.department (idDepartment, departmentName) VALUES (6, 'F');
+INSERT INTO new_database.department (idDepartment, departmentName) VALUES (7, 'G');
+INSERT INTO new_database.department (idDepartment, departmentName) VALUES (8, 'H');
+INSERT INTO new_database.department (idDepartment, departmentName) VALUES (9, 'I');
+INSERT INTO new_database.department (idDepartment, departmentName) VALUES (10, 'J');

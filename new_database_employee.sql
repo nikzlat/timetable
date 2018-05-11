@@ -1,0 +1,10 @@
+INSERT INTO new_database.employee (idEmployee, name, departmentEmployee, position) VALUES (1, 'John Smith', 1, 'Secret agent');
+INSERT INTO new_database.employee (idEmployee, name, departmentEmployee, position) VALUES (2, 'Bruce Wayne', 2, 'Batman');
+INSERT INTO new_database.employee (idEmployee, name, departmentEmployee, position) VALUES (3, 'Jane Smith', 1, 'Secret agent');
+INSERT INTO new_database.employee (idEmployee, name, departmentEmployee, position) VALUES (4, 'Alice from Wonderland', 3, 'Girl from a fairy tale');
+INSERT INTO new_database.employee (idEmployee, name, departmentEmployee, position) VALUES (5, 'John Cena', 3, 'Fighter');
+INSERT INTO new_database.employee (idEmployee, name, departmentEmployee, position) VALUES (6, 'James Bond', 4, 'Secret agent');
+INSERT INTO new_database.employee (idEmployee, name, departmentEmployee, position) VALUES (7, 'Spider Man', 5, 'Hero');
+INSERT INTO new_database.employee (idEmployee, name, departmentEmployee, position) VALUES (8, 'Super Man', 2, 'Hero');
+INSERT INTO new_database.employee (idEmployee, name, departmentEmployee, position) VALUES (9, 'Jason Bourne', 6, 'Secret agent');
+INSERT INTO new_database.employee (idEmployee, name, departmentEmployee, position) VALUES (10, 'Red Queen', 1, 'Queen');

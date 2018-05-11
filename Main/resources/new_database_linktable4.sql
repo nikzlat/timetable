@@ -1,0 +1,1 @@
+insert into `linktable4` (col) VALUES (1);
