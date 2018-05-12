@@ -16,9 +16,7 @@ import java.util.Scanner;
 
 public class DBConnection {
 
-    private Connection c;
-
-    private Connection openConnectionToDB() throws SQLException {
+    private Connection openConnectionToDB() {
         try {
             Class.forName("com.mysql.jdbc.Driver");
         } catch (ClassNotFoundException e) {
@@ -48,115 +46,36 @@ public class DBConnection {
         }
     }
 
-    void Insert(String s) throws SQLException {
-
-        Connection conn = openConnectionToDB();
-
-        Statement stmt = conn.createStatement();
-
-        stmt.executeUpdate(s);
-
-        stmt.close();
-
-        closeConnectionToDB(conn);
-
-    }
-
 
     //CONNECTION DATABASE
-    TableView buildData(String SQL) {
+    TableView buildData(String[] SQL) {
 
         /*executeSqlScript(c, file1);
         executeSqlScript(c, file2);
         executeSqlScript(c, file3);
         executeSqlScript(c, file4);
-        executeSqlScript(c, file5);
-        executeSqlScript(c, file6);*/
+        executeSqlScript(c, file5);*/
 
 
         ObservableList<ObservableList> data = FXCollections.observableArrayList();
         TableView tableview = new TableView();
         try {
-            c = openConnectionToDB();
+            Connection c = openConnectionToDB();
             //ResultSet
-            ResultSet rs = c.createStatement().executeQuery(SQL);
+            ResultSet rs;
+            if (SQL.length > 1) {
+                c.createStatement().executeUpdate(SQL[0]);
+                c.createStatement().executeUpdate(SQL[1]);
+                rs = c.createStatement().executeQuery(SQL[2]);
 
-
-            /**********************************
-             * TABLE COLUMN ADDED DYNAMICALLY *
-             **********************************/
-            for (int i = 0; i < rs.getMetaData().getColumnCount(); i++) {
-                //We are using non property style for making dynamic table
-                final int j = i;
-                TableColumn col = new TableColumn(rs.getMetaData().getColumnName(i + 1));
-                col.setCellValueFactory(new Callback<TableColumn.CellDataFeatures<ObservableList, String>, ObservableValue<String>>() {
-                    public ObservableValue<String> call(TableColumn.CellDataFeatures<ObservableList, String> param) {
-                        return new SimpleStringProperty(param.getValue().get(j).toString());
-                    }
-                });
-
-                tableview.getColumns().addAll(col);
-                System.out.println("Column [" + i + "] ");
+            } else {
+                rs = c.createStatement().executeQuery(SQL[0]);
             }
 
-            /********************************
-             * Data added to ObservableList *
-             ********************************/
 
-            while (rs.next()) {
-                //Iterate Row
-                ObservableList<String> row = FXCollections.observableArrayList();
-                for (int i = 1; i <= rs.getMetaData().getColumnCount(); i++) {
-                    //Iterate Column
-                    if (rs.getString(i) != null) {
-                        row.add(rs.getString(i));
-                    }
-                }
-                System.out.println("Row [1] added " + row);
-                data.add(row);
-
-            }
-            closeConnectionToDB(c);
-            //FINALLY ADDED TO TableView
-            tableview.setItems(data);
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.out.println("Error on Building Data");
-        }
-
-        return tableview;
-    }
-
-    void executeSrt(String SQL) {
-        //Connection c;
-        try {
-            c = openConnectionToDB();
-            //ResultSet
-            c.createStatement().executeUpdate(SQL);
-            closeConnectionToDB(c);
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.out.println("Error on Building Data");
-        }
-    }
-
-
-    //CONNECTION DATABASE
-    TableView testBuild(String SQL1, String SQL2, String SQL3) {
-        //Connection c;
-        ObservableList<ObservableList> data = FXCollections.observableArrayList();
-        TableView tableview = new TableView();
-        try {
-            c = openConnectionToDB();
-            //ResultSet
-            c.createStatement().executeUpdate(SQL1);
-            c.createStatement().executeUpdate(SQL2);
-            ResultSet rs = c.createStatement().executeQuery(SQL3);
-
-
-            /**********************************
-             * TABLE COLUMN ADDED DYNAMICALLY *
-             **********************************/
+            /*
+              TABLE COLUMN ADDED DYNAMICALLY
+             */
             for (int i = 0; i < rs.getMetaData().getColumnCount(); i++) {
                 //We are using non property style for making dynamic table
                 final int j = i;
@@ -171,9 +90,9 @@ public class DBConnection {
                 //System.out.println("Column [" + i + "] ");
             }
 
-            /********************************
+            /*
              * Data added to ObservableList *
-             ********************************/
+             */
 
             while (rs.next()) {
                 //Iterate Row
@@ -196,22 +115,13 @@ public class DBConnection {
             System.out.println("Error on Building Data");
         }
 
-        tableview.setMinSize(1000, 500);
-        tableview.setMaxSize(1000, 500);
-        tableview.setTableMenuButtonVisible(true);
-        //((TablePosition) tableview.getSelectionModel().getSelectedCells().get(0)).getTableColumn().getText();
-        //getTableView().getItems().get(CustomerButtonCell.this.getIndex())
         return tableview;
     }
 
 
     public void executeSqlScript(Connection conn, File inputFile) {
 
-        try {
-            conn = openConnectionToDB();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        conn = openConnectionToDB();
         // Delimiter
         String delimiter = ";";
 

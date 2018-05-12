@@ -14,7 +14,6 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 import java.awt.*;
-import java.sql.SQLException;
 
 /**
  * The Timetable program
@@ -43,7 +42,7 @@ public class Main extends Application {
     private DBConnection dbConnection = new DBConnection();
     private SQLRequests sqlRequests = new SQLRequests();
 
-    private String SQL = "SELECT e.name, d.departmentName FROM new_database.employee e, department d where departmentEmployee=idDepartment;";
+    private String[] SQL = {"SELECT e.name, d.departmentName FROM new_database.employee e, department d where departmentEmployee=idDepartment;"};
 
     private TableView table = dbConnection.buildData(SQL);
 
@@ -84,9 +83,6 @@ public class Main extends Application {
         launch(args);
     }
 
-    public static void insertData(String s) throws SQLException {
-
-    }
 
     @Override
     public void start(Stage stage) {
@@ -221,7 +217,7 @@ public class Main extends Application {
     private void buttonAction() {
         String[] SQLArray = sqlRequests.createRequestStrings(department, month);
         vBoxTimetable.getChildren().clear();
-        table = dbConnection.testBuild(SQLArray[0], SQLArray[1], SQLArray[2]);
+        table = dbConnection.buildData(SQLArray);
         vBoxTimetable.getChildren().addAll(hBoxMonth, table);
         labelMonth.setText("Month " + month);
         labelDepartments.setFont(new Font("Arial", 15));
