@@ -1,6 +1,8 @@
+CREATE DATABASE  IF NOT EXISTS `new_database` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `new_database`;
 -- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
--- Host: localhost    Database: new_database
+-- Host: 127.0.0.1    Database: new_database
 -- ------------------------------------------------------
 -- Server version	5.7.21-log
 
@@ -53,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-05-11 12:58:59
+-- Dump completed on 2018-05-12 12:22:33

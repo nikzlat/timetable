@@ -9,25 +9,14 @@ import javafx.scene.control.TableView;
 import javafx.util.Callback;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.sql.*;
 import java.util.Scanner;
 
 
 public class DBConnection {
 
-    Connection c;
-
-    File file1 = new File("resources/new_database_calendar.sql");
-    File file2 = new File("resources/new_database_department.sql");
-    File file3 = new File("resources/new_database_employee.sql");
-    File file4 = new File("resources/new_database_flag.sql");
-    File file5 = new File("resources/new_database_linktable3.sql");
-    File file6 = new File("resources/new_database_linktable4.sql");
-
+    private Connection c;
 
     private Connection openConnectionToDB() throws SQLException {
         try {
@@ -152,11 +141,8 @@ public class DBConnection {
     }
 
 
-
-
-
     //CONNECTION DATABASE
-    TableView testBuild(String SQL1,String SQL2, String SQL3) {
+    TableView testBuild(String SQL1, String SQL2, String SQL3) {
         //Connection c;
         ObservableList<ObservableList> data = FXCollections.observableArrayList();
         TableView tableview = new TableView();
@@ -219,8 +205,6 @@ public class DBConnection {
     }
 
 
-
-
     public void executeSqlScript(Connection conn, File inputFile) {
 
         try {
@@ -242,7 +226,7 @@ public class DBConnection {
 
         // Loop through the SQL file statements
         Statement currentStatement = null;
-        while(scanner.hasNext()) {
+        while (scanner.hasNext()) {
 
             // Get statement
             String rawStatement = scanner.next() + delimiter;
@@ -266,8 +250,6 @@ public class DBConnection {
         }
         scanner.close();
     }
-
-
 
 
 }

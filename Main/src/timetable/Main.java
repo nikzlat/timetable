@@ -1,100 +1,83 @@
 package timetable;
 
-import java.awt.*;
-import java.sql.*;
-
 import javafx.application.Application;
-import javafx.collections.FXCollections;
-import javafx.collections.ListChangeListener;
-import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.geometry.Insets;
-import javafx.geometry.Orientation;
 import javafx.scene.Group;
-import javafx.scene.Node;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.ScrollPane;
+import javafx.scene.control.TableView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.util.concurrent.ThreadLocalRandom;
-
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.value.ObservableValue;
-import javafx.scene.control.TableColumn.CellDataFeatures;
-import javafx.util.Callback;
+import java.awt.*;
+import java.sql.SQLException;
 
 /**
  * The Timetable program
  *
- * @author  Nikolay Kuzmin
+ * @author Nikolay Kuzmin
  * @version 1.0
- * @since   2018-05-12
+ * @since 2018-05-12
  */
 
 public class Main extends Application {
 
-    String department = "All";
-    String month = "January";
+    private String department = "All";
+    private String month = "January";
 
     //Window
-    Dimension sSize = Toolkit.getDefaultToolkit().getScreenSize();
-    int vert = sSize.height;
-    int hor = sSize.width;
+    private Dimension sSize = Toolkit.getDefaultToolkit().getScreenSize();
+    private int vert = sSize.height;
+    private int hor = sSize.width;
 
 
     //Main Scene
-    Scene scene = new Scene(new Group());
+    private Scene scene = new Scene(new Group());
 
 
     //TableView
-    DBConnection dbConnection = new DBConnection();
-    SQLRequests sqlRequests = new SQLRequests();
+    private DBConnection dbConnection = new DBConnection();
+    private SQLRequests sqlRequests = new SQLRequests();
 
-    String[] SQLnew = new String[3];
+    private String SQL = "SELECT e.name, d.departmentName FROM new_database.employee e, department d where departmentEmployee=idDepartment;";
 
-    String SQL = "SELECT e.name, d.departmentName FROM new_database.employee e, department d where departmentEmployee=idDepartment;";
-
-    TableView table = dbConnection.buildData(SQL);
+    private TableView table = dbConnection.buildData(SQL);
 
 
     //Buttons Department
-    Button buttonDepA = new Button("Department A");
-    Button buttonDepB = new Button("Department B");
-    Button buttonDepC = new Button("Department C");
-    Button buttonDepD = new Button("Department D");
-    Button buttonDepE = new Button("Department E");
-    Button buttonDepF = new Button("Department F");
+    private Button buttonDepA = new Button("Department A");
+    private Button buttonDepB = new Button("Department B");
+    private Button buttonDepC = new Button("Department C");
+    private Button buttonDepD = new Button("Department D");
+    private Button buttonDepE = new Button("Department E");
+    private Button buttonDepF = new Button("Department F");
 
     //Buttons Month
-    Button buttonMonth1 = new Button("January");
-    Button buttonMonth2 = new Button("February");
-    Button buttonMonth3 = new Button("March");
-    Button buttonMonth4 = new Button("April");
-    Button buttonMonth5 = new Button("May");
-    Button buttonMonth6 = new Button("June");
-    Button buttonMonth7 = new Button("July");
-    Button buttonMonth8 = new Button("August");
-    Button buttonMonth9 = new Button("September");
-    Button buttonMonth10 = new Button("October");
-    Button buttonMonth11 = new Button("November");
-    Button buttonMonth12 = new Button("December");
+    private Button buttonMonth1 = new Button("January");
+    private Button buttonMonth2 = new Button("February");
+    private Button buttonMonth3 = new Button("March");
+    private Button buttonMonth4 = new Button("April");
+    private Button buttonMonth5 = new Button("May");
+    private Button buttonMonth6 = new Button("June");
+    private Button buttonMonth7 = new Button("July");
+    private Button buttonMonth8 = new Button("August");
+    private Button buttonMonth9 = new Button("September");
+    private Button buttonMonth10 = new Button("October");
+    private Button buttonMonth11 = new Button("November");
+    private Button buttonMonth12 = new Button("December");
 
-    Label label = new Label("Departments");
-    Label labelMonth = new Label("Month");
+    private Label labelDepartments = new Label("Departments");
+    private Label labelMonth = new Label("Month");
 
 
-    VBox vBoxDepartment = new VBox(); //Департаменты слева
-    HBox hBoxMonth = new HBox(); //Месяца слева
-    VBox vBoxTimetable = new VBox(); //Табель справа
-    HBox hBoxMain = new HBox(); //Внешний
+    private VBox vBoxDepartment = new VBox(); //Департаменты слева
+    private HBox hBoxMonth = new HBox(); //Месяца слева
+    private VBox vBoxTimetable = new VBox(); //Табель справа
+    private HBox hBoxMain = new HBox(); //Внешний
 
 
     public static void main(String[] args) {
@@ -106,7 +89,8 @@ public class Main extends Application {
     }
 
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage stage) {
+
         /* random flags to table
         for (int i=1;i<=10;i++){ //employee
             for (int j=1;j<=365;j++) { //day
@@ -128,15 +112,13 @@ public class Main extends Application {
         table.setTableMenuButtonVisible(true);
 
 
-
-
-        label.setFont(new Font("Arial", 20));
+        labelDepartments.setFont(new Font("Arial", 20));
         labelMonth.setFont(new Font("Arial", 15));
 
 
         vBoxDepartment.setSpacing(10);
         vBoxDepartment.setPadding(new Insets(10, 0, 0, 10));
-        vBoxDepartment.getChildren().addAll(label, buttonDepA, buttonDepB, buttonDepC, buttonDepD, buttonDepE, buttonDepF);
+        vBoxDepartment.getChildren().addAll(labelDepartments, buttonDepA, buttonDepB, buttonDepC, buttonDepD, buttonDepE, buttonDepF);
 
 
         hBoxMonth.setSpacing(10);
@@ -232,20 +214,18 @@ public class Main extends Application {
         });
 
 
-
-
         stage.setScene(scene);
         stage.show();
     }
 
-    void buttonAction(){
-        SQLnew = sqlRequests.createRequestStrings(department, month);
+    private void buttonAction() {
+        String[] SQLArray = sqlRequests.createRequestStrings(department, month);
         vBoxTimetable.getChildren().clear();
-        table = dbConnection.testBuild(SQLnew[0], SQLnew[1], SQLnew[2]);
+        table = dbConnection.testBuild(SQLArray[0], SQLArray[1], SQLArray[2]);
         vBoxTimetable.getChildren().addAll(hBoxMonth, table);
         labelMonth.setText("Month " + month);
-        label.setFont(new Font("Arial", 15));
-        label.setText("Department "+department);
+        labelDepartments.setFont(new Font("Arial", 15));
+        labelDepartments.setText("Department " + department);
     }
 
 }

@@ -1,8 +1,8 @@
 package timetable;
 
-public class SQLRequests {
+class SQLRequests {
 
-    public String[] createRequestStrings(String dep, String month) {
+    String[] createRequestStrings(String dep, String month) {
         String[] SQL = new String[3];
         String depNum = "";
         switch (dep.toLowerCase()) {
@@ -43,79 +43,79 @@ public class SQLRequests {
 
         int numDays = 0;
         int monthNum = 0;
-        int id1=1;
-        int id2=365;
+        int id1 = 1;
+        int id2 = 365;
         switch (month.toLowerCase()) {
             case "january":
                 numDays = 31;
-                id1=1;
-                id2=id1+numDays-1;
+                id1 = 1;
+                id2 = id1 + numDays - 1;
                 monthNum = 1;
                 break;
             case "february":
                 numDays = 28;
-                id1=32;
-                id2=id1+numDays-1;
+                id1 = 32;
+                id2 = id1 + numDays - 1;
                 monthNum = 2;
                 break;
             case "march":
                 numDays = 31;
-                id1=60;
-                id2=id1+numDays-1;
+                id1 = 60;
+                id2 = id1 + numDays - 1;
                 monthNum = 3;
                 break;
             case "april":
                 numDays = 30;
-                id1=91;
-                id2=id1+numDays-1;
+                id1 = 91;
+                id2 = id1 + numDays - 1;
                 monthNum = 4;
                 break;
             case "may":
                 numDays = 31;
-                id1=121;
-                id2=id1+numDays-1;
+                id1 = 121;
+                id2 = id1 + numDays - 1;
                 monthNum = 5;
                 break;
             case "june":
                 numDays = 30;
-                id1=152;
-                id2=id1+numDays-1;
+                id1 = 152;
+                id2 = id1 + numDays - 1;
                 monthNum = 6;
                 break;
             case "july":
                 numDays = 31;
-                id1=182;
-                id2=id1+numDays-1;
+                id1 = 182;
+                id2 = id1 + numDays - 1;
                 monthNum = 7;
                 break;
             case "august":
                 numDays = 31;
-                id1=213;
-                id2=id1+numDays-1;
+                id1 = 213;
+                id2 = id1 + numDays - 1;
                 monthNum = 8;
                 break;
             case "september":
                 numDays = 30;
-                id1=244;
-                id2=id1+numDays-1;
+                id1 = 244;
+                id2 = id1 + numDays - 1;
                 monthNum = 9;
                 break;
             case "october":
                 numDays = 31;
-                id1=274;
-                id2=id1+numDays-1;
+                id1 = 274;
+                id2 = id1 + numDays - 1;
                 monthNum = 10;
                 break;
             case "november":
                 numDays = 30;
-                id1=305;
-                id2=id1+numDays-1;
+                id1 = 305;
+                id2 = id1 + numDays - 1;
                 monthNum = 11;
                 break;
             case "december":
                 numDays = 31;
-                id1=335;
-                id2=id1+numDays-1;
+                id1 = 335;
+                id2 = id1 + numDays - 1;
                 monthNum = 12;
                 break;
         }
@@ -127,11 +127,10 @@ public class SQLRequests {
         SQL[2] = "select name, position, idEmployee, ";//, departmentName
         StringBuilder s = new StringBuilder();
         for (int i = 1; i <= numDays; i++) {
-            if (((i+id1)%7==0)||((i-1+id1)%7==0)){
-                s.append("MAX( if( data='2018-" + monthNum + "-" + i + "', flagName, 0 ) ) as '" + i + "В"  + "', ");
-            }
-            else {
-                s.append("MAX( if( data='2018-" + monthNum + "-" + i + "', flagName, 0 ) ) as '" + i + "', ");
+            if (((i + id1) % 7 == 0) || ((i - 1 + id1) % 7 == 0)) {
+                s.append("MAX( if( data='2018-").append(monthNum).append("-").append(i).append("', flagName, 0 ) ) as '").append(i).append("В").append("', ");
+            } else {
+                s.append("MAX( if( data='2018-").append(monthNum).append("-").append(i).append("', flagName, 0 ) ) as '").append(i).append("', ");
             }
         }
         SQL[2] += s.toString();
