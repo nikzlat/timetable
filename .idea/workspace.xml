@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7997947-279d-4946-8fdf-2ea91cde204d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ba6323e-fdc0-47a2-8103-76fd9bc71e2f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0ba6323e-fdc0-47a2-8103-76fd9bc71e2f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/568ab4c4-f727-4542-8480-cade0cceacc8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/568ab4c4-f727-4542-8480-cade0cceacc8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" afterDir="false" />
-    </list>
+    <list default="true" id="d7997947-279d-4946-8fdf-2ea91cde204d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/Main/src/timetable/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="236">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2736#2737#0" expanded="true" />
@@ -87,8 +83,8 @@
       <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/src/timetable/DBConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+            <state relative-caret-position="289">
+              <caret line="68" column="58" lean-forward="true" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
               <folding>
                 <element signature="method#openConnectionToDB#0;class#DBConnection#0" />
                 <element signature="method#executeSqlScript#0;class#DBConnection#0" />
@@ -218,7 +214,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="762" />
     <option name="width" value="783" />
     <option name="height" value="907" />
@@ -349,12 +345,12 @@
       <workItem from="1526025303348" duration="65000" />
       <workItem from="1526025386335" duration="11693000" />
       <workItem from="1526102287789" duration="8038000" />
-      <workItem from="1526120600345" duration="4053000" />
+      <workItem from="1526120600345" duration="4449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23849000" />
+    <option name="totallyTimeSpent" value="24245000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,7 +362,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
+    <frame x="-8" y="-8" width="1554" height="916" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -807,7 +803,7 @@
     <entry file="file://$PROJECT_DIR$/Main/src/timetable/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2736#2737#0" expanded="true" />
@@ -818,8 +814,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/timetable/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+        <state relative-caret-position="289">
+          <caret line="68" column="58" lean-forward="true" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
           <folding>
             <element signature="method#openConnectionToDB#0;class#DBConnection#0" />
             <element signature="method#executeSqlScript#0;class#DBConnection#0" />
