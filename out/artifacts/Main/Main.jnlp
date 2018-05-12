@@ -8,9 +8,9 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Main.jar" size="30300" download="eager" />
+    <jar href="Main.jar" size="30301" download="eager" />
     <jar href="mysql-connector-java-5.1.46.jar" size="1004838" download="eager" />
   </resources>
-  <jfx:javafx-desc  width="600" height="400" main-class="timetable.GUI"  name="Main" />
+  <jfx:javafx-desc  width="600" height="400" main-class="timetable.Main"  name="Main" />
   <update check="background"/>
 </jnlp>
