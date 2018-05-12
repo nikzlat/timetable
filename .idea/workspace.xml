@@ -6,33 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7997947-279d-4946-8fdf-2ea91cde204d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/568ab4c4-f727-4542-8480-cade0cceacc8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/568ab4c4-f727-4542-8480-cade0cceacc8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/resources/new_database_calendar.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Main/resources/new_database_calendar.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/resources/new_database_department.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Main/resources/new_database_department.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/resources/new_database_employee.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Main/resources/new_database_employee.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/resources/new_database_flag.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Main/resources/new_database_flag.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/resources/new_database_linktable3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Main/resources/new_database_linktable3.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/resources/new_database_linktable4.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/src/timetable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/timetable/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/src/timetable/SQLRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/timetable/SQLRequests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Main/Main.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Main/Main.jnlp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Main/bundles/Main.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Main/bundles/Main.jnlp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/new_database_calendar.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/new_database_calendar.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/new_database_department.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/new_database_department.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/new_database_employee.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/new_database_employee.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/new_database_flag.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/new_database_flag.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/new_database_linktable3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/new_database_linktable3.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/new_database_linktable4.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/timetable/DBConnection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/timetable/DBConnection$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/timetable/DBConnection$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/timetable/DBConnection$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/timetable/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/timetable/DBConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/timetable/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/timetable/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/timetable/SQLRequests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/timetable/SQLRequests.class" afterDir="false" />
-    </list>
+    <list default="true" id="d7997947-279d-4946-8fdf-2ea91cde204d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,6 +47,17 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="timetableDBremote" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="timetableDBremote" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="timetableDBremote" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="new_database: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
     </expand>
     <select />
   </component>
@@ -94,16 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ba6323e-fdc0-47a2-8103-76fd9bc71e2f/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="SQLRequests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SQLRequests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/src/timetable/SQLRequests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="2278">
+              <caret line="134" column="9" lean-forward="true" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -122,7 +102,7 @@
         </entry>
       </file>
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/568ab4c4-f727-4542-8480-cade0cceacc8/console.sql">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ba6323e-fdc0-47a2-8103-76fd9bc71e2f/console.sql">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -146,7 +126,7 @@
       <find>A&quot;</find>
       <find>start</find>
       <find>closeConnectionToDB</find>
-      <find>I'm OK Bro</find>
+      <find />
       <find>Таб</find>
       <find>Де</find>
       <find>Месяц</find>
@@ -272,7 +252,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Main/resources/report-cardM.icns" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -350,12 +330,12 @@
       <updated>1524677607947</updated>
       <workItem from="1526025303348" duration="65000" />
       <workItem from="1526025386335" duration="11693000" />
-      <workItem from="1526102287789" duration="6289000" />
+      <workItem from="1526102287789" duration="7433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18047000" />
+    <option name="totallyTimeSpent" value="19191000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,13 +358,13 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.22556894" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24872449" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24872449" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987245" visible="true" weight="0.2128514" />
-      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.2416332" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.2416332" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32908162" />
       <window_info id="Learn" order="2" weight="0.3299866" />
       <window_info id="Structure" order="1" sideWeight="0.50127554" side_tool="true" weight="0.3206158" />
@@ -785,12 +765,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/timetable/SQLRequests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/568ab4c4-f727-4542-8480-cade0cceacc8/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ba6323e-fdc0-47a2-8103-76fd9bc71e2f/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/timetable/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -803,9 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/568ab4c4-f727-4542-8480-cade0cceacc8/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/timetable/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -817,8 +793,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ba6323e-fdc0-47a2-8103-76fd9bc71e2f/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Main/src/timetable/SQLRequests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2278">
+          <caret line="134" column="9" lean-forward="true" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

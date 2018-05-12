@@ -6,6 +6,13 @@
         <option name="appClass" value="timetable.Main" />
         <option name="description" value="" />
         <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="linuxIcon" value="$PROJECT_DIR$/Main/resources/report-cardL.png" />
+            <option name="macIcon" value="$PROJECT_DIR$/Main/resources/report-cardM.icns" />
+            <option name="windowsIcon" value="$PROJECT_DIR$/Main/resources/report-cardW.ico" />
+          </JavaFxApplicationIcons>
+        </option>
         <option name="nativeBundle" value="all" />
         <option name="title" value="" />
         <option name="vendor" value="" />
