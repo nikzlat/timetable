@@ -82,8 +82,8 @@
       <file leaf-file-name="SQLRequests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/src/timetable/SQLRequests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2278">
-              <caret line="134" column="9" lean-forward="true" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+            <state relative-caret-position="306">
+              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -126,7 +126,7 @@
       <find>A&quot;</find>
       <find>start</find>
       <find>closeConnectionToDB</find>
-      <find />
+      <find>I'm OK Bro</find>
       <find>Таб</find>
       <find>Де</find>
       <find>Месяц</find>
@@ -330,12 +330,12 @@
       <updated>1524677607947</updated>
       <workItem from="1526025303348" duration="65000" />
       <workItem from="1526025386335" duration="11693000" />
-      <workItem from="1526102287789" duration="7433000" />
+      <workItem from="1526102287789" duration="8038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19191000" />
+    <option name="totallyTimeSpent" value="19796000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,6 +348,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32908162" />
@@ -358,7 +359,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.22556894" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24872449" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24872449" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -795,8 +796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/timetable/SQLRequests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2278">
-          <caret line="134" column="9" lean-forward="true" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+        <state relative-caret-position="306">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
