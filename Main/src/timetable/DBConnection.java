@@ -16,6 +16,8 @@ import java.util.Scanner;
 
 public class DBConnection {
 
+    static int counterFlag=0;
+
     private Connection openConnectionToDB() {
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -50,12 +52,12 @@ public class DBConnection {
     //CONNECTION DATABASE
     TableView buildData(String[] SQL) {
 
+
         /*executeSqlScript(c, file1);
         executeSqlScript(c, file2);
         executeSqlScript(c, file3);
         executeSqlScript(c, file4);
         executeSqlScript(c, file5);*/
-
 
         ObservableList<ObservableList> data = FXCollections.observableArrayList();
         TableView tableview = new TableView();
@@ -70,6 +72,11 @@ public class DBConnection {
 
             } else {
                 rs = c.createStatement().executeQuery(SQL[0]);
+            }
+            if (counterFlag==0) {
+                String s = "INSERT INTO new_database.counter (counterPlus) values (1);";
+                c.createStatement().executeUpdate(s);
+                counterFlag++;
             }
 
 

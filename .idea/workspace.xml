@@ -7,21 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7997947-279d-4946-8fdf-2ea91cde204d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Main/src/timetable/MainExtendedAppVersion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Executable application/application.exe — ярлык.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Executable application/application.jar — ярлык.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0ba6323e-fdc0-47a2-8103-76fd9bc71e2f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0ba6323e-fdc0-47a2-8103-76fd9bc71e2f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/568ab4c4-f727-4542-8480-cade0cceacc8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/568ab4c4-f727-4542-8480-cade0cceacc8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/src/timetable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/timetable/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Main/Main.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Main/Main.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Main/Main.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Main/Main.jnlp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Main/bundles/Main.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Main/bundles/Main.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Main/bundles/Main.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Main/bundles/Main.jnlp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Main/bundles/Main/app/Main.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Main/bundles/Main/app/Main.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/timetable/DBConnection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/timetable/DBConnection$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/timetable/DBConnection$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/timetable/DBConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/timetable/DBConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Main/timetable/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/timetable/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,11 +70,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/src/timetable/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+            <state relative-caret-position="236">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2736#2737#0" expanded="true" />
@@ -96,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/src/timetable/DBConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+            <state relative-caret-position="459">
+              <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
               <folding>
                 <element signature="method#openConnectionToDB#0;class#DBConnection#0" />
                 <element signature="method#executeSqlScript#0;class#DBConnection#0" />
@@ -113,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/Main/src/timetable/SQLRequests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -121,8 +109,8 @@
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ba6323e-fdc0-47a2-8103-76fd9bc71e2f/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -183,12 +171,12 @@
         <option value="$PROJECT_DIR$/Main/src/timetable/SQLRequests.java" />
         <option value="$PROJECT_DIR$/Main/src/timetable/SQLRequests.java" />
         <option value="$PROJECT_DIR$/Main/src/timetable/SQLRequests.java" />
-        <option value="$PROJECT_DIR$/Main/src/timetable/Main.java" />
         <option value="$PROJECT_DIR$/Main/src/timetable/MainExtendedAppVersion.java" />
-        <option value="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" />
-        <option value="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" />
-        <option value="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0ba6323e-fdc0-47a2-8103-76fd9bc71e2f/console.sql" />
+        <option value="$PROJECT_DIR$/Main/src/timetable/Main.java" />
+        <option value="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" />
+        <option value="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" />
+        <option value="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" />
         <option value="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" />
       </list>
     </option>
@@ -230,7 +218,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="762" />
     <option name="width" value="783" />
     <option name="height" value="907" />
@@ -361,12 +349,12 @@
       <workItem from="1526025303348" duration="65000" />
       <workItem from="1526025386335" duration="11693000" />
       <workItem from="1526102287789" duration="8038000" />
-      <workItem from="1526120600345" duration="2924000" />
+      <workItem from="1526120600345" duration="4053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22720000" />
+    <option name="totallyTimeSpent" value="23849000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,11 +378,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.22556894" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24872449" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24872449" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
-      <window_info active="true" anchor="bottom" id="Database Console" order="9" visible="true" weight="0.32908162" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32908162" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987245" visible="true" weight="0.21552879" />
       <window_info anchor="right" id="Database" order="4" visible="true" weight="0.2416332" />
@@ -802,39 +790,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ba6323e-fdc0-47a2-8103-76fd9bc71e2f/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/timetable/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
-          <folding>
-            <element signature="method#openConnectionToDB#0;class#DBConnection#0" />
-            <element signature="method#executeSqlScript#0;class#DBConnection#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/timetable/SQLRequests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ba6323e-fdc0-47a2-8103-76fd9bc71e2f/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/timetable/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="236">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2736#2737#0" expanded="true" />
             <element signature="e#2764#2765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/src/timetable/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="78" column="30" selection-start-line="78" selection-start-column="30" selection-end-line="78" selection-end-column="30" />
+          <folding>
+            <element signature="method#openConnectionToDB#0;class#DBConnection#0" />
+            <element signature="method#executeSqlScript#0;class#DBConnection#0" />
           </folding>
         </state>
       </provider>
