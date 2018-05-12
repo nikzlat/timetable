@@ -31,9 +31,15 @@ import javafx.beans.value.ObservableValue;
 import javafx.scene.control.TableColumn.CellDataFeatures;
 import javafx.util.Callback;
 
+/**
+ * The Timetable program
+ *
+ * @author  Nikolay Kuzmin
+ * @version 1.0
+ * @since   2018-05-12
+ */
 
-
-public class GUI extends Application {
+public class Main extends Application {
 
     String department = "All";
     String month = "January";

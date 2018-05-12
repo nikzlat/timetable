@@ -7,7 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7997947-279d-4946-8fdf-2ea91cde204d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_database_calendar.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_database_department.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_database_employee.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_database_flag.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_database_linktable3.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_database_linktable4.sql" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,11 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main/src/timetable/GUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="68">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#2882#2883#0" expanded="true" />
                 <element signature="e#2910#2911#0" expanded="true" />
@@ -66,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SQLRequests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SQLRequests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/src/timetable/SQLRequests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="136" column="31" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
+            <state relative-caret-position="107">
+              <caret line="125" column="44" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -78,8 +83,8 @@
       <file leaf-file-name="DBConnection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/src/timetable/DBConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+            <state relative-caret-position="799">
+              <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Insert#0;class#DBConnection#0" />
@@ -154,10 +159,8 @@
         <option value="$PROJECT_DIR$/Main/src/timetable/Main.java" />
         <option value="$PROJECT_DIR$/Main/src/timetable/PrimitiveAction.java" />
         <option value="$PROJECT_DIR$/Main/src/timetable/requestString.java" />
-        <option value="$PROJECT_DIR$/Main/src/timetable/GUI.java" />
         <option value="$PROJECT_DIR$/Main/src/timetable/PrimitiveAction.java" />
         <option value="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" />
-        <option value="$PROJECT_DIR$/Main/src/timetable/GUI.java" />
         <option value="$PROJECT_DIR$/Main/src/timetable/DepartmentButton.java" />
         <option value="$PROJECT_DIR$/Main/src/timetable/requestString.java" />
         <option value="$PROJECT_DIR$/Main/src/timetable/PrimitiveAction.java" />
@@ -171,6 +174,8 @@
         <option value="$PROJECT_DIR$/Main/resources/new_database_linktable4.sql" />
         <option value="$PROJECT_DIR$/Main/src/timetable/DBConnection.java" />
         <option value="$PROJECT_DIR$/Main/src/timetable/SQLRequests.java" />
+        <option value="$PROJECT_DIR$/Main/src/timetable/GUI.java" />
+        <option value="$PROJECT_DIR$/Main/src/timetable/GUI.java" />
       </list>
     </option>
   </component>
@@ -211,7 +216,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="762" />
     <option name="width" value="783" />
     <option name="height" value="907" />
@@ -241,41 +246,6 @@
               <item name="timetable" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="timetable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="timetable" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="timetable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="timetable" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="timetable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="timetable" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="timetable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="timetable" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="timetable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="timetable" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
-              <item name="bundles" type="462c0819:PsiDirectoryNode" />
-              <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -311,7 +281,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="timetable.GUI" />
+      <option name="MAIN_CLASS_NAME" value="timetable.Main" />
       <module name="Main" />
       <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
     </configuration>
@@ -369,12 +339,12 @@
       <updated>1524677607947</updated>
       <workItem from="1526025303348" duration="65000" />
       <workItem from="1526025386335" duration="11693000" />
-      <workItem from="1526102287789" duration="1195000" />
+      <workItem from="1526102287789" duration="2194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12953000" />
+    <option name="totallyTimeSpent" value="13952000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,7 +356,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1554" height="916" extended-state="7" />
+    <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -398,12 +368,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.22556894" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24872449" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24872449" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987245" visible="true" weight="0.2128514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987245" visible="true" weight="0.2128514" />
       <window_info anchor="right" id="Database" order="4" visible="true" weight="0.2416332" />
       <window_info id="Learn" order="2" weight="0.3299866" />
       <window_info id="Structure" order="1" sideWeight="0.50127554" side_tool="true" weight="0.3206158" />
@@ -663,6 +633,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="1584" column="16" selection-start-line="1584" selection-start-column="16" selection-end-line="1584" selection-end-column="16" />
+          <folding>
+            <element signature="e#70179#70180#0" expanded="true" />
+            <element signature="e#70256#70257#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -811,21 +785,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/timetable/GUI.java">
+    <entry file="file://$PROJECT_DIR$/Main/src/timetable/SQLRequests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#2882#2883#0" expanded="true" />
-            <element signature="e#2910#2911#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="107">
+          <caret line="125" column="44" selection-start-line="125" selection-start-column="44" selection-end-line="125" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/timetable/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        <state relative-caret-position="799">
+          <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Insert#0;class#DBConnection#0" />
@@ -833,10 +803,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/src/timetable/SQLRequests.java">
+    <entry file="file://$PROJECT_DIR$/Main/src/timetable/GUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="136" column="31" selection-start-line="136" selection-start-column="31" selection-end-line="136" selection-end-column="31" />
+        <state relative-caret-position="68">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#2882#2883#0" expanded="true" />
+            <element signature="e#2910#2911#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
