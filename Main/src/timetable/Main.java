@@ -218,6 +218,8 @@ public class Main extends Application {
         String[] SQLArray = sqlRequests.createRequestStrings(department, month);
         vBoxTimetable.getChildren().clear();
         table = dbConnection.buildData(SQLArray);
+        table.setMinSize(1000, 500);
+        table.setMaxSize(1000, 500);
         vBoxTimetable.getChildren().addAll(hBoxMonth, table);
         labelMonth.setText("Month " + month);
         labelDepartments.setFont(new Font("Arial", 15));

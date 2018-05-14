@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7997947-279d-4946-8fdf-2ea91cde204d" name="Default" comment="" />
+    <list default="true" id="d7997947-279d-4946-8fdf-2ea91cde204d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,12 +71,10 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/src/timetable/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
+            <state relative-caret-position="272">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2736#2737#0" expanded="true" />
-                <element signature="e#2764#2765#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/Main/src/timetable/DBConnection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="68" column="58" lean-forward="true" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
+              <caret line="68" column="58" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
               <folding>
                 <element signature="method#openConnectionToDB#0;class#DBConnection#0" />
                 <element signature="method#executeSqlScript#0;class#DBConnection#0" />
@@ -131,7 +131,7 @@
       <find>A&quot;</find>
       <find>start</find>
       <find>closeConnectionToDB</find>
-      <find>I'm OK Bro</find>
+      <find />
       <find>Таб</find>
       <find>Де</find>
       <find>Месяц</find>
@@ -227,6 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -258,7 +259,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,12 +345,13 @@
       <workItem from="1526025303348" duration="65000" />
       <workItem from="1526025386335" duration="11693000" />
       <workItem from="1526102287789" duration="8038000" />
-      <workItem from="1526120600345" duration="4449000" />
+      <workItem from="1526120600345" duration="5652000" />
+      <workItem from="1526317288486" duration="398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24245000" />
+    <option name="totallyTimeSpent" value="25846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -378,9 +379,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32908162" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987245" visible="true" weight="0.21552879" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987245" visible="true" weight="0.21820615" />
       <window_info anchor="right" id="Database" order="4" visible="true" weight="0.2416332" />
       <window_info id="Learn" order="2" weight="0.3299866" />
       <window_info id="Structure" order="1" sideWeight="0.50127554" side_tool="true" weight="0.3206158" />
@@ -391,6 +391,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.50127554" side_tool="true" weight="0.3206158" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32908162" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -464,8 +465,6 @@
           <caret line="91" selection-start-line="91" selection-end-line="91" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2736#2737#0" expanded="true" />
-            <element signature="e#2764#2765#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -494,8 +493,6 @@
           <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2736#2737#0" expanded="true" />
-            <element signature="e#2764#2765#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -524,8 +521,6 @@
           <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2736#2737#0" expanded="true" />
-            <element signature="e#2764#2765#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -749,7 +744,7 @@
           <settings layout="Hierarchic Group" zoom="0.8702448210922789" x="132.0" y="256.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Key columns</Category>
+            <Category />
             <Category>Columns</Category>
           </Categories>
           <SCOPE>All</SCOPE>
@@ -802,12 +797,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/src/timetable/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="272">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2736#2737#0" expanded="true" />
-            <element signature="e#2764#2765#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -815,7 +808,7 @@
     <entry file="file://$PROJECT_DIR$/Main/src/timetable/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="68" column="58" lean-forward="true" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
+          <caret line="68" column="58" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
           <folding>
             <element signature="method#openConnectionToDB#0;class#DBConnection#0" />
             <element signature="method#executeSqlScript#0;class#DBConnection#0" />
